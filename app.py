@@ -21,7 +21,7 @@ class DocumentoCouch(object):
         logging.basicConfig( 
             level    = logging.DEBUG, 
             format   = '%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
-            filename = 'logs/couch-promo.log',datefmt='%d/%m/%Y %H:%M:%S'
+            filename = 'logs/info-log.log',datefmt='%d/%m/%Y %H:%M:%S'
         )
         logging.info('\nOrigen: '+str(origen)+'\nDatos: '+str(datos)+'\nError: '+str(error)+'\n'+'#'*100)
 
